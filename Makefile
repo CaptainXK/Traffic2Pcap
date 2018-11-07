@@ -4,7 +4,7 @@ CC := gcc
 OBJ_DIR := obj
 SRCS := $(wildcard *.c)
 OBJS := $(patsubst %.c, $(OBJ_DIR)/%.o, $(SRCS) )
-INC := -I.
+INC := -Iinclude
 FLAGS := -lpcap
 
 
