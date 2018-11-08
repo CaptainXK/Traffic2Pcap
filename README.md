@@ -3,13 +3,12 @@
 - This app is used to create user defined traffic and transmit them by pktgen
 - run: 
 build:  
-`make`
+`make`  
 default mode:  
 `./test.app`
 or file mode:  
-`./test.app -f [pp_trace_file]`
-
-usage:  
+./test.app -f [pp_trace_file]
+- print usage:  
 `./test.app -h`
 
  
